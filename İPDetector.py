@@ -1,5 +1,6 @@
 import requests
 while True:
+    print("(c) və (C) ilə çıxış edə bilərsiniz!")
     İP_input = input("IP unvanini daxil et: ")
     if(İP_input == "C" or İP_input == "c"):
         break
@@ -12,3 +13,4 @@ while True:
     print("Ölkə:", data.get("country"))
     print("Şəhər:", data.get("city"))
     print("Provayder:", data.get("org"))
+
